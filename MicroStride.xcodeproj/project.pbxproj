@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		4AD2B4CF2D4C691600EA6DF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AD2B4B52D4C691500EA6DF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AD2B4BC2D4C691500EA6DF8;
+			remoteInfo = MicroStride;
+		};
+		4AD2B4D92D4C691600EA6DF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AD2B4B52D4C691500EA6DF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AD2B4BC2D4C691500EA6DF8;
+			remoteInfo = MicroStride;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4AD2B4BD2D4C691500EA6DF8 /* MicroStride.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MicroStride.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AD2B4CE2D4C691600EA6DF8 /* MicroStrideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MicroStrideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AD2B4D82D4C691600EA6DF8 /* MicroStrideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MicroStrideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		4AD2B4BF2D4C691500EA6DF8 /* MicroStride */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MicroStride;
+			sourceTree = "<group>";
+		};
+		4AD2B4D12D4C691600EA6DF8 /* MicroStrideTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MicroStrideTests;
+			sourceTree = "<group>";
+		};
+		4AD2B4DB2D4C691600EA6DF8 /* MicroStrideUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MicroStrideUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AD2B4BA2D4C691500EA6DF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AD2B4CB2D4C691600EA6DF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AD2B4D52D4C691600EA6DF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AD2B4B42D4C691500EA6DF8 = {
+			isa = PBXGroup;
+			children = (
+				4AD2B4BF2D4C691500EA6DF8 /* MicroStride */,
+				4AD2B4D12D4C691600EA6DF8 /* MicroStrideTests */,
+				4AD2B4DB2D4C691600EA6DF8 /* MicroStrideUITests */,
+				4AD2B4BE2D4C691500EA6DF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4AD2B4BE2D4C691500EA6DF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AD2B4BD2D4C691500EA6DF8 /* MicroStride.app */,
+				4AD2B4CE2D4C691600EA6DF8 /* MicroStrideTests.xctest */,
+				4AD2B4D82D4C691600EA6DF8 /* MicroStrideUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4AD2B4BC2D4C691500EA6DF8 /* MicroStride */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AD2B4E22D4C691600EA6DF8 /* Build configuration list for PBXNativeTarget "MicroStride" */;
+			buildPhases = (
+				4AD2B4B92D4C691500EA6DF8 /* Sources */,
+				4AD2B4BA2D4C691500EA6DF8 /* Frameworks */,
+				4AD2B4BB2D4C691500EA6DF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				4AD2B4BF2D4C691500EA6DF8 /* MicroStride */,
+			);
+			name = MicroStride;
+			packageProductDependencies = (
+			);
+			productName = MicroStride;
+			productReference = 4AD2B4BD2D4C691500EA6DF8 /* MicroStride.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4AD2B4CD2D4C691600EA6DF8 /* MicroStrideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AD2B4E52D4C691600EA6DF8 /* Build configuration list for PBXNativeTarget "MicroStrideTests" */;
+			buildPhases = (
+				4AD2B4CA2D4C691600EA6DF8 /* Sources */,
+				4AD2B4CB2D4C691600EA6DF8 /* Frameworks */,
+				4AD2B4CC2D4C691600EA6DF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AD2B4D02D4C691600EA6DF8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4AD2B4D12D4C691600EA6DF8 /* MicroStrideTests */,
+			);
+			name = MicroStrideTests;
+			packageProductDependencies = (
+			);
+			productName = MicroStrideTests;
+			productReference = 4AD2B4CE2D4C691600EA6DF8 /* MicroStrideTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4AD2B4D72D4C691600EA6DF8 /* MicroStrideUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AD2B4E82D4C691600EA6DF8 /* Build configuration list for PBXNativeTarget "MicroStrideUITests" */;
+			buildPhases = (
+				4AD2B4D42D4C691600EA6DF8 /* Sources */,
+				4AD2B4D52D4C691600EA6DF8 /* Frameworks */,
+				4AD2B4D62D4C691600EA6DF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AD2B4DA2D4C691600EA6DF8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4AD2B4DB2D4C691600EA6DF8 /* MicroStrideUITests */,
+			);
+			name = MicroStrideUITests;
+			packageProductDependencies = (
+			);
+			productName = MicroStrideUITests;
+			productReference = 4AD2B4D82D4C691600EA6DF8 /* MicroStrideUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AD2B4B52D4C691500EA6DF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					4AD2B4BC2D4C691500EA6DF8 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					4AD2B4CD2D4C691600EA6DF8 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 4AD2B4BC2D4C691500EA6DF8;
+					};
+					4AD2B4D72D4C691600EA6DF8 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 4AD2B4BC2D4C691500EA6DF8;
+					};
+				};
+			};
+			buildConfigurationList = 4AD2B4B82D4C691500EA6DF8 /* Build configuration list for PBXProject "MicroStride" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4AD2B4B42D4C691500EA6DF8;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4AD2B4BE2D4C691500EA6DF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AD2B4BC2D4C691500EA6DF8 /* MicroStride */,
+				4AD2B4CD2D4C691600EA6DF8 /* MicroStrideTests */,
+				4AD2B4D72D4C691600EA6DF8 /* MicroStrideUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AD2B4BB2D4C691500EA6DF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AD2B4CC2D4C691600EA6DF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AD2B4D62D4C691600EA6DF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AD2B4B92D4C691500EA6DF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AD2B4CA2D4C691600EA6DF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AD2B4D42D4C691600EA6DF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4AD2B4D02D4C691600EA6DF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AD2B4BC2D4C691500EA6DF8 /* MicroStride */;
+			targetProxy = 4AD2B4CF2D4C691600EA6DF8 /* PBXContainerItemProxy */;
+		};
+		4AD2B4DA2D4C691600EA6DF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AD2B4BC2D4C691500EA6DF8 /* MicroStride */;
+			targetProxy = 4AD2B4D92D4C691600EA6DF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4AD2B4E02D4C691600EA6DF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4AD2B4E12D4C691600EA6DF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		4AD2B4E32D4C691600EA6DF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MicroStride/MicroStride.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MicroStride/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.domain.MicroStride;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4AD2B4E42D4C691600EA6DF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MicroStride/MicroStride.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MicroStride/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.domain.MicroStride;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		4AD2B4E62D4C691600EA6DF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.domain.MicroStrideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MicroStride.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MicroStride";
+			};
+			name = Debug;
+		};
+		4AD2B4E72D4C691600EA6DF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.domain.MicroStrideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MicroStride.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MicroStride";
+			};
+			name = Release;
+		};
+		4AD2B4E92D4C691600EA6DF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.domain.MicroStrideUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MicroStride;
+			};
+			name = Debug;
+		};
+		4AD2B4EA2D4C691600EA6DF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.domain.MicroStrideUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MicroStride;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AD2B4B82D4C691500EA6DF8 /* Build configuration list for PBXProject "MicroStride" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AD2B4E02D4C691600EA6DF8 /* Debug */,
+				4AD2B4E12D4C691600EA6DF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AD2B4E22D4C691600EA6DF8 /* Build configuration list for PBXNativeTarget "MicroStride" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AD2B4E32D4C691600EA6DF8 /* Debug */,
+				4AD2B4E42D4C691600EA6DF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AD2B4E52D4C691600EA6DF8 /* Build configuration list for PBXNativeTarget "MicroStrideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AD2B4E62D4C691600EA6DF8 /* Debug */,
+				4AD2B4E72D4C691600EA6DF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AD2B4E82D4C691600EA6DF8 /* Build configuration list for PBXNativeTarget "MicroStrideUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AD2B4E92D4C691600EA6DF8 /* Debug */,
+				4AD2B4EA2D4C691600EA6DF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4AD2B4B52D4C691500EA6DF8 /* Project object */;
+}
