@@ -30,19 +30,18 @@ $$
 
 但是这个模型的问题在于，当天数比如是1000天或者更大，会发生数据爆炸，数据增长的太快了，不适合描述习惯培养过程中的自律和摆烂的状态，最终选择放弃改模型。
 
-
 $$
-V_t = V_{t-1} + \beta_t \cdot X_t \cdot (1 - V_{t-1}) - \gamma \cdot (1 - X_t) \cdot V_{t-1}
-$$
-
-$$
+\begin{aligned}
+V_t &= V_{t-1} + \beta_t \cdot X_t \cdot (1 - V_{t-1}) - \gamma \cdot (1 - X_t) \cdot V_{t-1} \\
 \text{其中：} \\
-V_t &: \text{第 } t \text{ 天的习惯强度，范围 } ( 0 \leq V_t \leq 1 )。 \\
+V_t &: \text{第 } t \text{ 天的习惯强度，范围 } (0 \leq V_t \leq 1)。 \\
 V_{t-1} &: \text{前一天的习惯值，由前一天的计算结果决定}。 \\
 \beta_t &: \text{习惯增长速率，控制自律行为对习惯的提升程度}。 \\
 X_t &: \text{当天是否自律}，X_t = 1 \text{ 表示自律，} X_t = 0 \text{ 表示摆烂}。 \\
 \gamma &: \text{习惯遗忘速率，控制摆烂时习惯值的下降幅度}。
+\end{aligned}
 $$
+
 
 请看实际的代码
 
