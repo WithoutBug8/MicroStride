@@ -51,14 +51,16 @@ struct ContentView: View {
                     if let habit = selectedHabit, let index = habits.firstIndex(where: { $0.id == habit.id }) {
                         HabitDetailView(habit: $habits[index], habits: $habits, onUpdate: saveHabits)
                             .frame(maxWidth: .infinity, maxHeight: .infinity)
-                            .background(
-                                BlurView() // ✅ 让习惯详情页也带有毛玻璃效果
-                            )
                     } else {
-                        Text("选择一个习惯查看详情")
-                            .font(.title)
-                            .foregroundColor(.gray)
-                            .frame(maxWidth: .infinity, maxHeight: .infinity)
+                        ZStack {
+                            BlurView() // ✅ 添加毛玻璃背景，即使未选中习惯
+                                .ignoresSafeArea()
+                            
+                            Text("选择一个习惯查看详情")
+                                .font(.title)
+                                .foregroundColor(.gray)
+                        }
+                        .frame(maxWidth: .infinity, maxHeight: .infinity)
                     }
                 }
                 .sheet(isPresented: $showEditHabitView) {
@@ -211,14 +213,22 @@ struct ContentView: View {
     // ✅ 数据存储
     private func saveHabits() {
         if let encoded = try? JSONEncoder().encode(habits) {
-            UserDefaults.standard.set(encoded, forKey: "habits")
+            // 为了和后续的插件进行数据通讯这里要修改一下
+            let sharedDefaults = UserDefaults(suiteName: "group.com.example.MicroStride")
+            sharedDefaults?.set(encoded, forKey: "habits")
+            sharedDefaults?.synchronize()
+            print("[DEBUG] 主应用 - 数据已存入 App Group: \(encoded.count) bytes") // 调试信息
         }
     }
-
+    // 加载数据；这里也做了处理，从 App Group 读取数据；用于后续widget插件读取数据
     private func loadHabits() {
-        if let savedData = UserDefaults.standard.data(forKey: "habits"),
+        let sharedDefaults = UserDefaults(suiteName: "group.com.example.MicroStride")
+        if let savedData = sharedDefaults?.data(forKey: "habits"),
            let decoded = try? JSONDecoder().decode([Habit].self, from: savedData) {
             habits = decoded
+            print("[DEBUG] 主应用 - 成功加载习惯数据，共 \(decoded.count) 个习惯") // ✅ 调试信息
+        } else{
+            print("[DEBUG] 主应用 - 习惯数据加载失败或数据为空") // ✅ 调试信息
         }
     }
 
