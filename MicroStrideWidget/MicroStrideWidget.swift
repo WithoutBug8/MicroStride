@@ -76,14 +76,11 @@ struct MicroStrideWidgetEntryView: View {
 
     var body: some View {
         ZStack {
-            // ✅ 背景渐变
             LinearGradient(
-                gradient: Gradient(colors: [Color.green.opacity(0.3), Color.blue.opacity(0.6)]),
-                startPoint: .topLeading,
-                endPoint: .bottomTrailing
-            )
-            .ignoresSafeArea() // 让背景填充整个 Widget
-
+                    gradient: Gradient(colors: [Color.green.opacity(0.3), Color.blue.opacity(0.6)]),
+                    startPoint: .topLeading,
+                    endPoint: .bottomTrailing
+                )
             VStack(spacing: 8) {
                 // ✅ 状态鼓励语
                 Text(motivationalText(for: entry.completedCount, total: entry.totalCount))
@@ -108,8 +105,9 @@ struct MicroStrideWidgetEntryView: View {
                 Text(emojiForProgress(entry.completedCount, total: entry.totalCount))
                     .font(.system(size: 40)) // 让 emoji 更大
             }
-            .padding()
         }
+        .ignoresSafeArea() // 确保背景完全覆盖
+        .frame(maxWidth: .infinity, maxHeight: .infinity) // 让 VStack 也填充 Widget
     }
     
     // ✅ 根据进度生成鼓励话语
@@ -154,7 +152,7 @@ struct MicroStrideWidget: Widget {
     var body: some WidgetConfiguration {
         StaticConfiguration(kind: kind, provider: Provider()) { entry in
             MicroStrideWidgetEntryView(entry: entry)
-                .containerBackground(.fill.tertiary, for: .widget)
+                // .containerBackground(.fill.tertiary, for: .widget) 外层容器背景删除，影响widget展示
         }
         .configurationDisplayName("MicroStride 习惯追踪")
         .description("查看今日习惯完成进度")

@@ -403,6 +403,8 @@
 				CODE_SIGN_ENTITLEMENTS = MicroStrideWidget/MicroStrideWidget.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6D45H5H376;
+				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MicroStrideWidget/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = MicroStrideWidget;
@@ -430,6 +432,8 @@
 				CODE_SIGN_ENTITLEMENTS = MicroStrideWidget/MicroStrideWidget.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6D45H5H376;
+				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MicroStrideWidget/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = MicroStrideWidget;
@@ -577,6 +581,8 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MicroStride/Preview Content\"";
+				DEVELOPMENT_TEAM = 6D45H5H376;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -602,6 +608,8 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MicroStride/Preview Content\"";
+				DEVELOPMENT_TEAM = 6D45H5H376;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
